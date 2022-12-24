@@ -4,8 +4,8 @@ import MyOrder from '@containers/MyOrder.jsx';
 import '../styles/Header.scss';
 import Menu from '@components/Menu.jsx';
 import menu from '@icons/icon_menu.svg';
-import logo from '@logos/logo_yard_sale.svg';
-import shopingcart from '@icons/icon_shopping_cart.svg';
+import logo from '@icons/logo_destored.png';
+import shopingcart from '@icons/icono_carrito.png';
 const Header = () => {
 
 	const [toggle,setToggle] = useState(false);
@@ -21,29 +21,29 @@ const Header = () => {
 				<img src={logo} alt="logo" className="nav-logo" />
 				<ul>
 					<li>
-						<a href="/">All</a>
+						<a href="/">Compra</a>
 					</li>
 					<li>
-						<a href="/">Clothes</a>
+						<a href="/">Venta</a>
 					</li>
 					<li>
-						<a href="/">Electronics</a>
+						<a href="/">Pago</a>
 					</li>
 					<li>
-						<a href="/">Furnitures</a>
+						<a href="/">Deposito</a>
 					</li>
 					<li>
-						<a href="/">Toys</a>
+						<a href="/">Entrega</a>
 					</li>
 					<li>
-						<a href="/">Others</a>
+						<a href="/">Mas</a>
 					</li>
 				</ul>
 			</div>
 			<div className="navbar-right">
 				<ul>
-					<li className="navbar-email" onClick={handleToggle}>
-						platzi@example.com
+					<li className="navbar-user" onClick={handleToggle}>
+						destored@example.com
 					</li>
 					<li className="navbar-shopping-cart" 
 						onClick={()=>setToggleOrders(!toggleOrders)}>

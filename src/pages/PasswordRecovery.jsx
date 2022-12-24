@@ -7,8 +7,8 @@ const PasswordRecovery = () => {
 		<div className="PasswordRecovery">
 			<div className="PasswordRecovery-container">
 				<img src={logo} alt="logo" className="logo" />
-				<h1 className="title">Password recovery</h1>
-				<p className="subtitle">Inform the email address used to create your account</p>
+				<h1 className="title">Recueración Contraseña</h1>
+				<p className="subtitle">Ingrese Email asociada a la cuenta</p>
 				<form action="/" className="form">
 					<label htmlFor="email" className="label">Email address</label>
 					<input type="text" id="email" className="input input-email" />

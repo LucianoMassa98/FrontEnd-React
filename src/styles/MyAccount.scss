@@ -43,8 +43,8 @@
 .secondary-button {
 	background-color: var(--white);
 	border-radius: 8px;
-	border: 1px solid var(--hospital-green);
-	color: var(--hospital-green);
+	border: 1px solid var(--secundario-1);
+	color: var(--secundario-1);
 	width: 100%;
 	cursor: pointer;
 	font-size: var(--md);
@@ -59,8 +59,5 @@
 	.form-container {
 		height: 100%;
 	}
-	.form {
-		height: 100%;
-		justify-content: space-between;
-	}
+	
 }

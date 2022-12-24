@@ -6,13 +6,13 @@
 	box-sizing: border-box;
 	position: absolute;
 	right: 0;
-	background-color: white;
-	top: 60px;
+	background-color: var(--white);
+	top: 90px;
 	bottom: 0px;
 	border-radius: 6px;
-	border: 1px solid var(--very-light-pink);
+	border: 1px solid var(--gris);
 	overflow-y: auto;
-	height: 350px;
+	height: 100%;
 }
 .title-container {
 	display: flex;
@@ -30,7 +30,8 @@
 	grid-template-columns: auto 1fr;
 	gap: 16px;
 	align-items: center;
-	background-color: var(--text-input-field);
+	background-color: var(--principal-2);
+	color: var(--white);
 	margin-bottom: 24px;
 	border-radius: 8px;
 	padding: 0 24px;
@@ -49,7 +50,7 @@
 }
 
 .primary-button {
-	background-color: var(--hospital-green);
+	background-color: var(--principal-1);
 	border-radius: 8px;
 	border: none;
 	color: var(--white);
